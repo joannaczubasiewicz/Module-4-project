@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin-bottom: 40px;
+}
+
 /*Header*/
 .header {
   position: relative;
@@ -175,4 +179,51 @@ i {
 
 .col-body p {
   font-family: "Poly", serif;
+}
+
+/*Portfolio*/
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.card img {
+  width: 100%;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body .card-title {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-body p {
+  font-family: "Poly", serif;
+  font-style: italic;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.portfolio-inner {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.portfolio-inner h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 40px;
+}
+
+.portfolio-inner h4 {
+  font-family: "Poly", serif;
+  font-size: 20px;
+  font-style: italic;
 }
