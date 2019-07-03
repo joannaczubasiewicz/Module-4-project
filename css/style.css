@@ -27,7 +27,7 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
-  height: 70%;
+  max-height: 70%;
   width: 100%;
 }
 
@@ -90,7 +90,7 @@ img {
 .splash {
   display: -ms-flexbox;
   display: flex;
-  padding: 50px;
+  padding: 10px;
 }
 
 .splash-inner {
@@ -122,15 +122,55 @@ img {
 }
 
 /*Services*/
+.containter {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services-inner {
+  -ms-flex-pack: center;
+      justify-content: center;
+  /*flex: 1;*/
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.services-inner h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 40px;
+}
+
+.services-inner h4 {
+  font-family: "Poly", serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
 i {
   color: #fbc531;
   border-radius: 50%;
-  border: 5px solid #fbc531;
+  border: 3px solid #fbc531;
   background: #ffffff;
   font-size: 30px;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   line-height: 60px;
   text-align: center;
-  margin-top: 10px;
+  padding: 15px 0;
+}
+
+.col-body {
+  text-align: center;
+}
+
+.col-body h4 {
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+}
+
+.col-body p {
+  font-family: "Poly", serif;
 }

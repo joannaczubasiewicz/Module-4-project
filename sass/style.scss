@@ -39,7 +39,7 @@ $color-light: #ffffff;
 img {
     object-fit: cover;
     overflow: hidden;
-    height: 70%;
+    max-height: 70%;
     width: 100%;
 }
 
@@ -104,7 +104,7 @@ img {
 
 .splash {
     display: flex;
-    padding: 50px;
+    padding: 10px;
 }
 
 .splash-inner {
@@ -132,4 +132,53 @@ img {
     }
 }
 /*Services*/
+.containter {
+    display: flex;
+    
+}
 
+.services-inner {
+        justify-content: center;
+        /*flex: 1;*/
+        text-align: center;
+        padding: 30px;
+        margin-bottom: 40px;
+        h2 {
+            font-family: $font-two;
+            font-style: bold;
+            font-size: 40px;
+        }
+        h4 {
+            font-family: $font-one;
+            font-size: 20px;
+            font-style: italic;
+        }
+    }
+
+
+ i {
+    color: $color-one;
+    border-radius: 50%;
+    border: 3px solid $color-one;
+    background: $color-light;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    text-align: center;
+    padding: 15px 0;
+    
+}
+
+.col-body {
+    text-align: center;
+    h4 {
+        margin: 15px;
+        font-family: $font-two;
+        font-style: bold;
+    
+    }
+    p {
+        font-family: $font-one;
+    }
+}
