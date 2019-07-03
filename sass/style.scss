@@ -41,6 +41,7 @@ img {
     overflow: hidden;
     max-height: 70%;
     width: 100%;
+    opacity: 0.8;
 }
 
 
@@ -73,6 +74,7 @@ img {
         font-family: $font-one;
         /*padding: 0 20px;*/
         text-align: center;
+        font-size: 15px;
     }
 }
 
